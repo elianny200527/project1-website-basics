@@ -1,4 +1,5 @@
 /* Root typography settings */
+
 html{
 /*   set the following properties: 
   font-size - this will be the base font size for the site
@@ -6,25 +7,61 @@ html{
   line-height - base line height, generally should be in the range 1.5-1.8 
   color- primary text color for the site
   background-color - primary background color for the site */
-
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+  background-color: #ffffff;
   
 }
 
 /* General heading styles */
 /*set font styles for all of your headings, for example font-weight, line-height, font-family */
 h1, h2, h3, h4, h5, h6{
-  
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 /* Specific element text styles */
 h1{
   /*   this is the page title you may want to set the font-size and weight instead of relying on the default. */
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h2{
-  /* secondary heading, also set font-size and weight (and others you may want)
+  /* secondary heading, also set font-size and weight (and others you may want)*/
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 p{
   margin-bottom: 1rem; /* optional but usually good to have a space between paragraphs */
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Link styles */
+
+a:link {
+  color: #0066cc;
+}
+
+a:visited {
+  color: #663399;
+}
+
+a:hover {
+  color: #cc0000;
+}
+
+a:active {
+  color: #ff0000;
 }
