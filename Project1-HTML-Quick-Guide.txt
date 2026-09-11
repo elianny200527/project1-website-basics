@@ -1,0 +1,43 @@
+HTML Quick Guide
+
+HTML (HyperText Markup Language) is the language that creates the web page, points to all of the other files needed to make the page.
+
+
+ What HTML Does
+
+ Defines the structure of a page: the header, navigation, main content, page sections, footer and more
+ Marks the content on the page: headings, paragraphs, lists, media and more
+ Tells the browser where to find other files needed: CSS, JavaScript, image, audio, video
+ Allows you to create links to other pages or websites
+
+
+ Key Concepts
+
+ Pages begin with a doctype and the html element
+ Content goes inside the body
+ The body has three main structural areas: header, main, footer
+ Use headings to organize information (h1 for the main title, h2 for sections, h3 and below for subsections)
+ Paragraphs are written with p tags
+ Lists can be ordered (numbered) or unordered (bulleted)
+ Links connect your content to other resources
+ Semantic HTML means that you put content in the right structural area and match the element you use to the content (example heading in h1 or list in ul ). 
+
+
+ Basic Types of Elements
+
+ Required Elements (must include): !DOCTYPE, html, head, body
+ Core Page Structure Elements (all pages in our class have these): header, main, footer
+ Core Text Content Elements: h1–h6, p, ol,ul, li, a
+ Core Media Content Elements: img, figure, audio, video
+ Elements to include CSS and JS files: link (CSS), script (JS)
+
+
+Learn More
+
+These sites are good references for later:  
+
+ MDN: HTML basics https://developer.mozilla.org/enUS/docs/Learn/Gettingstartedwiththeweb/HTMLbasics  
+ W3Schools: HTML Examples  https://www.w3schools.com/html/html_examples.asp
+ HTML Syntax https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+ Lists https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
+ Links https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links

@@ -1,0 +1,42 @@
+CSS Quick Guide
+
+CSS (Cascading Style Sheets) controls how your HTML looks. In this guide the focus is on styling text and color.
+
+
+How CSS Can Style Text and Color
+
+ Sets the text basics: fonts, sizes, and spacing
+ Applies colors for text and backgrounds
+ Adds margins, padding and line-height to create space
+ Give you precise control with class, id and other selectors
+ Controls how links look in different states (hover, visited, active)
+
+
+Terms
+
+ Selector: the part of a CSS ruleset that defines which HTML elements the style should be applied to.
+ Property: the style attribute you want to change. Example color:red (color is the property). 
+ Value: the particular specification for a property. Example: color:red (red is the value). 
+ Units: these specify the type of value. Example: fontsize: 2rem; (rem is the unit). 
+ Box Model: It is the fundamental CSS layout model that treats every HTML element as a box with four layers.
+
+
+Basic Properties for Text and Color Styling
+
+ font-family: changes the font that use used
+ font-size: changes the size of the text
+ line-height: changes the spacing between lines in the same element (paragraph, heading etc)
+ color: use this to change the text color,
+ background-color: use this to change the background color behind the text
+ margin: adds space between elements
+ padding: adds space between the content of an element and the border of the element
+
+
+Learn More
+
+ The following sites are good references for later:  
+
+ MDN: CSS basics — https://developer.mozilla.org/enUS/docs/Learn/Gettingstartedwiththeweb/CSSbasics  
+ MDN: Basic Selectors https://developer.mozilla.org/enUS/docs/Learnwebdevelopment/Core/Stylingbasics/Basicselectors
+ MDN: Reference List of Selectors https://developer.mozilla.org/enUS/docs/Web/CSS/CSSselectors
+ W3Schools: CSS Examples https://www.w3schools.com/css/cssexamples.asp
